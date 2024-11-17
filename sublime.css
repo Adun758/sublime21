@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+nav{
+    background: linear-gradient(to right,#17ead9,#6078ea  );
+}
+.nav-item,ul,li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.btn{
+   background-color: transparent;
+   border-color: white !important;
+   color: white !important;
+}
+.btn:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.linear_gradient{
+    background: linear-gradient(to right,#17ead9,#6078ea  );
+}
+.text-white{
+    color: wheat !important;
+}
+.span{
+    color: white !important;
+}
+.break{
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);  
+    position: relative;  
+    margin-top: -40px;
+
+ 
+}
+.card_content{
+       padding: 20px;
+    border: 1px solid white!important;
+    background-color: #f9f9f9 !important;
+    color: #212529;
+    margin: 0 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Get{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+    
+} 
+.companies{
+    background-color:#f9f9f9;
+    padding: 50px !important;
+
+}
+
+.span_we{
+    font-family: monospace;
+}
+.far_away{
+    margin-top: 100px !important;
+}
+.extra{
+    display: flex;
+}
+.face{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.bring{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.twitter{
+    color: blue;
+    font-size: large;
+}
+.emotion{
+    margin-top: 200px !important;
+}
+.more_benefit{
+    background-color: #6078EA !important;
+      }
+.mountains{
+    font-family: sans-serif;
+}
+    .behind{
+    display:flex;
+   }
+   .learn{
+    list-style-type: none;
+    text-decoration: none;
+   }
+.river_container{
+    background-color: #ECEDEE;
+}
+.Blog{
+    width: 90px !important;
+    border-radius: 10px;
+}
+.river_container{
+    display: flex;
+    
+    }
+.duden{
+    display: flex !important;
+    gap: 20px;
+}
+.Seperated{
+    display: flex;
+    
+}
+.cont{
+    margin-top: 20px !important;
+}
+.about{
+    margin-top: 20px !important;
+}
+
+
+@media(max-width:576px){
+    .card_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    nav{
+        display: none;
+    }
+    .behind{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .extra{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .emotion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .behind{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vokalia{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Seperated{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .duden{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Blog_container{
+        padding: 5px 20px;
+    }
+    .river_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    }
+
+    @media(max-width:880px){
+        .card_container{
+            display: grid;
+            grid-template-columns: 1,1fr;
+        }
+    }
